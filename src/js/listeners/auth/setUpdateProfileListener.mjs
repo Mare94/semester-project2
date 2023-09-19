@@ -1,4 +1,4 @@
-
+import { readProfile, updateProfile } from "../../api/profile/index.mjs";
 import { load } from "../../storage/storage.mjs";
 
 // handles the updating of profiles
