@@ -2,7 +2,7 @@ import { save, load } from "../../storage/storage.mjs";
 import { authFetch } from "../authFetch.mjs";
 import { BASE_URL } from "../../constants/constants.mjs";
 
-const action = "listings";
+const action = "/listings";
 
 const queryString = document.location.search;
 const params = new URLSearchParams(queryString);
