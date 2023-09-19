@@ -4,6 +4,8 @@ export function templateBid(bidData) {
     const readBid = document.createElement("div");
 
     try{
+        const endsAt = new Date(bidData.endsAt).toLocaleString();
+        
         const loader = document.querySelector("#loader");
         loader.style.display = "";
 
