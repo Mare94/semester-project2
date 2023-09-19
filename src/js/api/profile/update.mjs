@@ -1,7 +1,7 @@
 import { authFetch } from "../authFetch.mjs";
 import { BASE_URL } from "../../constants/constants.mjs";
 
-const action = "/profile";
+const action = "/profiles";
 const method = "put";
 
 export async function updateProfile(profileData) {
