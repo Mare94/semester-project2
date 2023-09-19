@@ -6,7 +6,7 @@ const method = "put";
 
 export async function updateProfile(profileData) {
     if(!profileData.name) {
-        throw new Error("Update requires an ID")
+        throw new Error("An error occured while updating")
     }
 
     const updateProfileUrl = `${BASE_URL}${action}/${profileData.name}/media`;
