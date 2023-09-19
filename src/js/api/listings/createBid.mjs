@@ -2,7 +2,7 @@ import { displayMessage } from "../../ui/common/index.mjs";
 import { authFetch } from "../authFetch.mjs";
 import { BASE_URL } from "../../constants/constants.mjs";
 
-const action = "/listings";
+const action = "listings";
 
 export async function createListings(listingData) {
 
