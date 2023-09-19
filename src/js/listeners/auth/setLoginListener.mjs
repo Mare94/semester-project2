@@ -4,7 +4,7 @@ import { displayMessage } from "../../ui/common/displayMessage.mjs";
 
 // handles login of profiles
 
-export function setLoginListener() {
+export function setLoginFormListener() {
     const form = document.querySelector("#loginForm");
 
     form.addEventListener("submit", async (event)=>{
