@@ -7,7 +7,7 @@ export function templateBid(bidData) {
         const endsAt = new Date(bidData.endsAt).toLocaleString();
         
         const loader = document.querySelector("#loader");
-        loader.style.display = "";
+        loader.style.display = "none";
 
         readBid.innerHTML = `
             <div class="card mb-3" style="max-width: 540px;">
@@ -29,7 +29,7 @@ export function templateBid(bidData) {
          </div>
         `;
 
-        return templateBid
+        return readBid
     } catch(error) {
         displayMessage("type", error, "#message")
     }
