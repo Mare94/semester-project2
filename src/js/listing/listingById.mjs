@@ -5,7 +5,7 @@ import * as listingsMethod from "../api/listings/index.mjs";
 // function to get listings by their ID
 // also looks at bid amount
 
-export async function getListingById() {
+export async function listingById() {
     const listingContainer = document.querySelector("#listing");
     const bidContainer = document.querySelector("#bid");
 
@@ -25,4 +25,4 @@ export async function getListingById() {
     }
 }
 
-getListingById();
+listingById();
