@@ -12,7 +12,7 @@ export function templateListing(listingData) {
 
         readListing.innerHTML = `
                     <div class="card mb-3">
-                        <img src="${listingData?.media}" class="card-img-top" alt="${listingData.title}">
+                        <img src="${listingData.media}" class="card-img-top" alt="${listingData.title}">
                         <div class="card-body">
                             <h5 class="card-title">${listingData.title}</h5>
                             <p class="card-text">Bids: ${listingData._count.bids}</p>
