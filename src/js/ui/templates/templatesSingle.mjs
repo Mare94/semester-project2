@@ -9,6 +9,7 @@ export function templateSingleListing(listingData) {
         loader.style.display = "none";
 
         readListing.innerHTML = `
+        <div id="message"></div>
         <div class"card m-auto mt-3 col-11 col-md-9 col-lg-8 p-4 d-flex flex-row">
             <div class"p-4 col-6">
                 <img src="${listingData?.media}" class="card-img">
