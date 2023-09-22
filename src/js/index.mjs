@@ -20,13 +20,9 @@ if (path === '/profile/login'){
 
 
 listeners.setBidFormListener();
-
 listeners.setCreateListingListener();
-
 listeners.setLogoutFormListener();
-
 listeners.setSearchFormListener();
-
 
 
 listings.allListings();
