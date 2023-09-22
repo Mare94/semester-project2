@@ -1,6 +1,6 @@
 import * as templates from "../ui/templates/index.mjs";
 import * as listingsMethod from "../api/listings/index.mjs";
-
+import { displayMessage } from "../ui/common/index.mjs";
 
 // function to get listings by their ID
 // also looks at bid amount
@@ -20,8 +20,14 @@ export async function listingById() {
             return 0
         });
 
-        templates.renderSingleListing(listing, listingContainer);
-        templates.renderBids(bidList, bidContainer);
+        try{
+
+            templates.renderSingleListing(listing, listingContainer);
+            templates.renderBids(bidList, bidContainer);
+        } catch(error) {
+            displayMessage("danger", error, "#message")
+        }
+        
     }
 }
 
