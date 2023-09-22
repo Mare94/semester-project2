@@ -13,7 +13,7 @@ if (path === '/profile/login'){
 } else if(path === '/profile/edit/'){
     listeners.setUpdateProfileFormListener();
 } else if(path === ''){
-    
+
 }
 
 
