@@ -2,12 +2,18 @@ export const BASE_URL = "https://nf-api.onrender.com/api/v1/auction/";
 console.log(BASE_URL)
 
 import * as router from "../js/router/searchParams.mjs";
-import * as listeners from "../listeners/auctions/index.mjs";
-import * as listings from "../listing/index.mjs";
-import * as profiledata from "../api/profile/index.mjs";
+import * as listeners from "./listeners/auctions/index.mjs";
+import * as listings from "./listing/index.mjs";
+import * as profiledata from "./api/profile/index.mjs";
 
-// router.setSearchParams();
 
+//import { get } from "./api/auctions/get.mjs";
+
+//get();
+
+
+
+ router.setSearchParams();
 
 
 
@@ -30,3 +36,4 @@ listings.allListings();
 listings.listingById();
 
 profiledata.profileData();
+
