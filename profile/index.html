@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="/dist/css/index.css">
     <link rel="stylesheet" href="/css/styles.css">
     <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
-    <script src="/src/js/index.mjs" defer type="module"></script>
+    <script src="src/js/index.mjs" defer type="module"></script>
     <title>Noroff Auction | Profile</title>
 </head>
 <body>
@@ -45,19 +45,66 @@
        </header>
 
        <main class="flex-grow-1 text-light">
+
         <div class="d-grid gap-2 d-dm-block profile">
-            <a href="/profile/edit/"><button class="btn btn-primary">Edit Profile</button></a>
-        </div>
-    <div class="container-fluid">
-        <div class="row justify-content-center">
-
-               
-
-            </div>
-
+            <h1>Profile</h1>
         </div>
 
-    </div>
+        <div class="row d-flex m-2 col-10 m-auto pb-5">
+              <div class="col-md-4 col-lg-4 pt-5">
+                <div class="card p-3 text-left">
+                  <div class="p-1" id="userAvatar"></div>
+                  <div class="p-1">
+                    <h2 id="username"></h2>
+                    <p id="userCredit">Credit: </p>
+                    <div class="d-grid gap-2 d-dm-block profile">
+                      <a href="/profile/edit/"><button class="btn btn-primary">Edit Profile</button></a>
+                  </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+              <div class="col-md-8 col-lg-8 pt-5">
+
+                <form id="createListing" class="card m-auto col-11 p-4">
+                  <h2>Post Listing</h2>
+
+                  <div class="form-group mb-3">
+                    <input type="text" name="title" class="form-control" placeholder="Title" prequired>
+
+                  </div>
+                  <div class="form-group mb-3">
+                    <input type="datetime" name="endsAt" class="form-control" placeholder="Deadline" required>
+
+                  </div>
+                  <div class="form-group mb-3">
+                    <textarea name="description" class="form-control" placeholder="Description" required></textarea>
+
+                  </div>
+                  <div class="form-group mb-3">
+                    <input type="url" name="media" class="form-control" placeholder="image url" required>
+
+                  </div>
+
+                  <a><button class="btn btn-secondary" type="submit">Post Listing</button></a>
+
+                </form>
+
+                <div class="pt-5">
+                  <h2 class="text-left pb-3">My Listings</h2>
+                  <div id="listings"></div>
+                </div>
+
+              </div>
+
+              <div id="loader"></div>
+
+        </div>
+
+    
    </main>
     
 </body>
