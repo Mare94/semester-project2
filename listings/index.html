@@ -49,18 +49,32 @@
        </header>
     
        <main>
+
         <div class="card text-center m-auto mt-3 col-8 -col-md-9 col-lg-8 col-md-6">
         <h1>Auctions</h1>
-       </div>
+        </div>
+        
+        <div class="g-4 my-2 col-10 m-auto text-left">
+          <form class="d-flex p-2 m-auto col-md-6 col-8" id="search">
+              <input class="form-control mr-sm-2 p-1" type="text" placeholder="Search" aria-label="Search" name="searchInput" style="border:none">
+              <button class="btn btn-secondary my-2 my-sm-0 p-2" type="submit">Search</button>
+          </form>
+      </div>
+
+
           <div id="Listings" class="pb-3 pt-5"></div>
+
           <div id="message"></div>
+
           <div class="card text-center m-auto mt-3 col-11 -col-md-9 col-lg-8 col-md-6">
+
             <div>
-              <h2 class="pt-1">Bid on this item</h2>
-              <form id="createBid" class="d-flex p-2 m-auto col-8 col-md-6">
+              <h2 class="pt-2">Bid on this item</h2>
+              <form id="createBid" class="d-flex p-3 m-auto col-8 col-md-6">
                 <input class="form-control mr-sm-3 p-2" name="amount" type="number" placeholder="Amount of credit">
                 <button class="btn btn-secondary my-2 my-sm-0 p-3">Bid</button>
               </form>
+              
             </div>
 
           </div>
