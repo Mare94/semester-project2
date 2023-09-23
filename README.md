@@ -30,11 +30,11 @@ git clone git@github.com:Mare94/semester-project2.git
 
 2. Install dependencies
 
-npm i
+- npm i
 
 3. SASS
 
-npm run build
+- npm run build
 
 
 ## Assets
