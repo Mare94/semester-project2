@@ -25,6 +25,7 @@ To make an auction website, where users can bid on items other users have put up
 1. Clone the repo:
 
 ```bash
+git clone git@github.com:Mare94/semester-project2.git
 ```
 
 2. Install dependencies
