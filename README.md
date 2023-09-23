@@ -39,4 +39,4 @@ npm run build
 ## Assets
 
 [Trello project plan](https://trello.com/invite/b/jGprK8iM/ATTIebc5f712be51a5166875c1b1a649cb960D87F6C0/semester-project-2)
-[Netlify]()
+[Netlify](https://splendorous-klepon-41936f.netlify.app)
