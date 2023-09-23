@@ -1,4 +1,4 @@
-import { displayMessage } from "../ui/common/displayMessage.mjs";
+ import { displayMessage } from "../common/displayMessage.mjs";
 
 export function templateBid(bidData) {
     const readBid = document.createElement("div");

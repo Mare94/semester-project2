@@ -28,7 +28,7 @@ export function templateSingleListing(listingData) {
         return readListing;
     
     } catch(error) {
-        displayMessage("type", error, "#message");
+         displayMessage("type", error, "#message");
     }
 }
 
