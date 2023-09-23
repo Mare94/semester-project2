@@ -2,7 +2,7 @@
 
 ## Goals
 
-To make use of what i've learned so far to create an auction website.
+To make use of what i've learned so far over 3 semesters to create an auction website.
 
 ## Task
 
