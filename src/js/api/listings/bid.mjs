@@ -11,7 +11,7 @@ const id = params.get("id");
 export async function listingBids(bidData) {
 
     const profile = load("profile");
-    const listingBidsUrl = `${BASE_URL}${action}/${id}/bids`;
+    const listingBidsUrl = `${BASE_URL}${action}/bids`;
 
     const response = await authFetch(listingBidsUrl, {
         method: "POST",
