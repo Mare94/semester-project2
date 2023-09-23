@@ -12,6 +12,14 @@ main {
     width: 75px;
 }
 
+/* Card/boxes */
+
+.card {
+    background: rgba(0, 0, 0, 0.09);
+    border: none;
+}
+
+
 /* button */
 
 .btn:hover {
