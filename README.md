@@ -16,6 +16,8 @@ To make an auction website, where users can bid on items other users have put up
 - JS
 - bootstrap
 
+## 
+
 ### Get started with the site
 
 ## Installing
